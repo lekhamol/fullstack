@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Cascade</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    .box {
+      border-width: 10px;
+      border-color: blueviolet;
+      padding: 10px;
+      margin: 10px;
+      background-color: rgb(39, 18, 225);
+    }
+
+    .inner-box {
+      background-color: rgb(209, 76, 15);
+    }
+
+    .white-text {
+      color: white;
+    }
+    #Yelt {
+      color: rgb(209, 209, 37);
+    }
+    #yellowtext {
+      color: rgb(152, 152, 38);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="outer-box" class="box">
+    <div class="box">
+      <p id="yellowtext">Yellow Text</p>
+      <div class="box inner-box">
+        <p class="white-text">White Text</p>
+      </div>
+    </div>
+    <div class="box">
+      <p  id="Yelt">Yellow Text</p>
+      <div class="box inner-box">
+        <p class="white-text">White Text</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+body {
+    background: #15535f;
+    font-family: "Georgia", serif;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+.meme-container {
+    width: 700px;
+    margin: auto;
+}
+
+.meme-container img {
+    width: 100%;
+    border: 6px solid white;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.subtitle {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ccc;
+}
